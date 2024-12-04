@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ngọc Tưởng 😍 Ngọc Thủy</title>
+    <link rel="icon" href="images/icon/Amitjakhu-Drip-Heart.512.png" type="image/x-icon">
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap"
+          rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/vegas.min.css" rel="stylesheet">
+
+    <link href="css/tooplate-barista.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet"/>
+    <style type="text/css">* {
+        cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym840.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym840.png), auto !important;
+    }</style>
+    <a href="https://www.cursors-4u.com/cursor/2018/02/17/flowing-hearts.html" target="_blank"
+       title="Flowing Hearts"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Flowing Hearts"
+                                   style="position:absolute; top: 0px; right: 0px;"/></a>
+    <!--
+
+    Tooplate 2137 Barista Cafe
+
+    https://www.tooplate.com/view/2137-barista-cafe
+
+    Bootstrap 5 HTML CSS Template
+
+    -->
+</head>
+
+<style>
+    .custom-image {
+        width: 300px;
+        height: 500px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .introduce {
+            display: none !important;
+        }
+
+        .menu-section {
+            background-image: url('./images/anh-cuoi-menu.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; /* Centers the image */
+            width: 100%;
+        }
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* HTML: <div class="loader"></div> */
+    #heart {
+        cursor: pointer;
+        position: relative;
+        width: 100px;
+        height: 90px;
+        animation: heartbeat 1s infinite;
+        margin: 0 auto
+    }
+
+    #heart:before,
+    #heart:after {
+        position: absolute;
+        content: "";
+        left: 50px;
+        top: 0;
+        width: 50px;
+        height: 80px;
+        background: #fff;
+        -moz-border-radius: 50px 50px 0 0;
+        border-radius: 50px 50px 0 0;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+    }
+
+    #heart:after {
+        left: 0;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+        -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+        -o-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+
+
+    @keyframes heartbeat {
+        0% {
+            transform: scale(.75);
+        }
+        20% {
+            transform: scale(1);
+        }
+        40% {
+            transform: scale(.75);
+        }
+        60% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(.75);
+        }
+        100% {
+            transform: scale(.75);
+        }
+    }
+    body{
+        background-color: #000000;
+    }
+</style>
+<body>
+<main>
+    <!--    <nav class="navbar navbar-expand-lg">-->
+    <!--        <div class="container">-->
+    <!--            <a class="navbar-brand d-flex align-items-center w-100 justify-content-center" href="index.html">-->
+    <!--                <img src="images/icon/Amitjakhu-Drip-Heart.512.png" class="navbar-brand-image img-fluid" alt="thienpt">-->
+    <!--                <div class="word p-1"></div>-->
+    <!--                <img src="images/icon/Amitjakhu-Drip-Heart.512.png" class="navbar-brand-image img-fluid" alt="thienpt">-->
+    <!--            </a>-->
+    <!--        </div>-->
+    <!--    </nav>-->
+    <!--    <audio id="audioPlayer" controls style="display:none" autoplay muted>-->
+    <!--        <source src="mp3/BeautifulInWhite-Chipmunk-3126588.mp3" type="audio/mp3">-->
+    <!--    </audio>-->
+    <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-8 col-12 mx-auto">
+                    <em class="small-text">Save The Date</em>
+                    <h1>Ngọc Tưởng - Ngọc Thủy</h1>
+                    <p class="text-white mb-4 pb-lg-2">
+                        <em>Happy Wedding</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-slides"></div>
+    </section>
+    <section class="about-section section-padding" id="section_2">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12">
+                    <div class="ratio ratio-1x1">
+                        <img src="images/anh-cuoi-chu-re.jpg" class="custom-video">
+
+                        <div class="about-video-info d-flex flex-column">
+                            <h4 class="mt-auto">Ngọc Tưởng</h4>
+                            <h4>1998</h4>
+                            <em class="text-white">"Good boy hiền lành tốt bụng , yêu vợ số 1"</em>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto introduce">
+                    <em class="text-white">Với sự hiện diện của chú rể</em>
+
+                    <h2 class="text-white mb-3">Ngọc Tưởng</h2>
+
+                    <p class="text-white">
+                        “Yêu nhau chẳng quản xa gần <br>
+                        Cầu không tay vịn, cũng lần mà sang.<br>
+                        Yêu nhau chẳng quản lầm than,<br>
+                        Mấy sông cũng lội, mấy ngàn cũng qua.<br>
+                        Yêu nhau chẳng ngại đường xa.<br>
+                        Đá vàng cũng quyết, phong ba cũng liều”.</p>
+                </div>
+
+            </div>
+            <br>
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto introduce">
+                    <em class="text-white">Cùng cô dâu </em>
+                    <h2 class="text-white mb-3">Ngọc Thủy</h2>
+                    <p class="text-white">“Em như một chén rượu đầy <br>
+                        Anh chưa nhấp miệng mà lòng đã say"</p>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="ratio ratio-1x1">
+                        <img src="images/anh-cuoi-co-dau.jpg" class="custom-video">
+
+                        <div class="about-video-info d-flex flex-column">
+                            <h4 class="mt-auto">Ngọc Thủy</h4>
+                            <h4>1998</h4>
+                            <em class="text-white">"Hot Girl, hướng nội , công dung ngôn hạnh"</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section section-padding" id="section_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="menu-block-wrap">
+                        <div class="text-center mb-4 pb-lg-2">
+                            <h4 class="text-white">DỰ TIỆC TẠI NHÀ TRAI</h4>
+                        </div>
+
+                        <div class="menu-block">
+                            <div class="d-flex text-center justify-content-center" style="font-family: Arial">
+                                <h6 class="">Thôn Hưng Định <br> Xã Trường Sinh,Sơn Dương <br>Tuyên Quang </h6>
+                            </div>
+                            <span class="underline"></span>
+                        </div>
+                        <div class="menu-block">
+                            <div class="date-card text-white">
+                                <h6 class="" style="font-family: Arial">Vào lúc 15 giờ</h6>
+                                <div class="date-top">
+                                    <span>Chủ nhật</span>
+                                    <span class="date">14/12</span>
+                                    <span>2024</span>
+                                </div>
+                                <p class="lunar-date">Tức ngày 14 tháng 12 năm Giáp Thìn</p>
+                                <a href="https://maps.app.goo.gl/THdfhPQHm2a26VCAA" target="_blank">Địa chỉ nhà trai
+                                    trên Google Map</a>
+                            </div>
+                        </div>
+                        <hr style="color: white;">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="menu-block-wrap">
+                        <div class="text-center mb-4 pb-lg-2">
+                            <h4 class="text-white">DỰ TIỆC TẠI NHÀ GÁI</h4>
+                        </div>
+
+                        <div class="menu-block">
+                            <div class="d-flex text-center justify-content-center" style="font-family: Arial">
+                                <h6 class="">Thôn Thọ Đức <br> Xã Hào Phú, Sơn Dương<br>Tuyên Quang</h6>
+                            </div>
+                            <span class="underline"></span>
+                        </div>
+                        <div class="menu-block">
+                            <div class="date-card text-white">
+                                <h6 class="" style="font-family: Arial">Vào lúc 15 giờ</h6>
+                                <div class="date-top">
+                                    <span>Chủ nhật</span>
+                                    <span class="date">14/12</span>
+                                    <span>2024</span>
+                                </div>
+                                <p class="lunar-date">Tức ngày 14 tháng 12 năm Giáp Thìn</p>
+                                <a href="https://maps.app.goo.gl/NHuh5FWCYqLDDAn76" target="_blank">Địa chỉ nhà gái trên
+                                    Google Map</a>
+                            </div>
+                        </div>
+                        <hr style="color: white;">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="menu-block-wrap">
+                        <div class="text-center mb-4 pb-lg-2">
+                            <h4 class="text-white">❤ LỄ THÀNH HÔN ❤</h4>
+                        </div>
+
+                        <div class="menu-block">
+                            <div class="d-flex text-center justify-content-center" style="font-family: Arial">
+                                <h6 class="">Thôn Hưng Định <br> Xã Trường Sinh,Sơn Dương <br>Tuyên Quang </h6>
+                            </div>
+                            <span class="underline"></span>
+                        </div>
+                        <div class="menu-block">
+                            <div class="date-card text-white">
+                                <h6 class="" style="font-family: Arial">Vào lúc 9 giờ 30 phút sáng</h6>
+                                <div class="date-top">
+                                    <span>Chủ nhật</span>
+                                    <span class="date">14/12</span>
+                                    <span>2024</span>
+                                </div>
+                                <p class="lunar-date">Tức ngày 14 tháng 12 năm Giáp Thìn</p>
+                                <!--                                <a href="https://maps.app.goo.gl/5Pd9jzS2L497Ssg76" target="_blank">Địa chỉ nhà gái trên-->
+                                <!--                                    Google Map</a>-->
+                            </div>
+                        </div>
+                        <hr style="color: white;">
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+    <section class="barista-section section-padding section-bg" id="barista-team">
+        <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+            <em class="text-white">Cùng ngắm nhìn</em>
+
+            <h2 class="text-white">Album ảnh cưới</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper" id="album">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="contact-section section-padding section-bg" id="section_5">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                    <em class="text-white">Mừng hạnh phúc đôi bạn trẻ</em>
+                    <h2 class="text-white">Tại đây</h2>
+                    <img class="text-white" src="fonts/hand-poin.svg" width="40" height="40" alt="">
+                </div>
+                <div class="row justify-content-center">
+                    <div id="heart" onclick="showHideQrCode()"></div>
+                </div>
+                <div class="timeline" id="qrCode" hidden="hidden">
+                    <div class="timeline-container timeline-container-left">
+                        <div class="timeline-content">
+                            <div class="reviews-block">
+                                <div class="reviews-block-image-wrap d-flex align-items-center">
+                                    <img src="images/anh-cuoi-chu-re.jpg"
+                                         class="reviews-block-image img-fluid" alt="">
+                                    <div class="">
+                                        <em class="text-white">Nhà trai</em>
+                                        <h6 class="text-white mb-0">Ngọc Tưởng</h6>
+                                    </div>
+                                </div>
+                                <div class="reviews-block-info">
+                                    <img style="width: 100%" src="images/qr/qr-nha-trai.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-container timeline-container-right">
+                        <div class="timeline-content">
+                            <div class="reviews-block">
+                                <div class="reviews-block-image-wrap d-flex align-items-center">
+                                    <img src="images/anh-cuoi-co-dau.jpg"
+                                         class="reviews-block-image img-fluid" alt="">
+                                    <div class="">
+                                        <em class="text-white">Nhà gái</em>
+                                        <h6 class="text-white mb-0">Ngọc Thủy</h6>
+                                    </div>
+                                </div>
+
+                                <div class="reviews-block-info">
+                                    <img style="width: 100%" src="images/qr/qr-nha-gai.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                    <em class="text-white">Xin chân thành cảm ơn các ông các bà, các anh các chị, bạn bè nam nữ gần
+                        xa</em>
+
+                    <h4 class="text-white">Đến chung vui với gia đình</h4>
+                </div>
+                <div class="col-lg-12 col-12 mt-4 text-center">
+                    <p class="copyright-text mb-0">See you again
+                        - Design: <a rel="sponsored" href="https://www.facebook.com/botombotomro" target="_blank">@thienpt</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
+<!-- JAVASCRIPT FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/click-scroll.js"></script>
+<script src="js/vegas.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var htmlAlbum = '';
+    $(document).ready(function () {
+        for (var i = 1; i < 11; i++) {
+            if (htmlAlbum == '') {
+                htmlAlbum = '<div class="swiper-slide custom-image align-items-center" data-lightbox="album" data-title="Image ' + i + '"><img src="images/anh-cuoi-' + i + '.jpg" alt=""></div>'
+            } else {
+                htmlAlbum = htmlAlbum + '<div class="swiper-slide custom-image align-items-center" data-lightbox="album" data-title="Image ' + i + '"><img src="images/anh-cuoi-' + i + '.jpg" alt=""></div>'
+            }
+        }
+        $('#album').html(htmlAlbum)
+        var slidesperView;
+        screenWidth = window.innerWidth;
+        slidesperView = (screenWidth < 1000) ? 1 : 3
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: slidesperView,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    })
+
+
+    function showHideQrCode() {
+        var checkHidden = $('#qrCode').attr('hidden')
+        if (checkHidden) {
+            $('#qrCode').removeAttr('hidden')
+        } else {
+            $('#qrCode').attr('hidden', 'hidden')
+        }
+    }
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
